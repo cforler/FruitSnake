@@ -21,3 +21,7 @@ Alternativ approach
 $ java  -jar FruitSnake.jar
 ```
 
+# Resources 
+Red Apple Icon (Author: inipagi, Licence: CC BY 4.0, Link: https://icon-icons.com/icon/Apple-fruit/82499)
+
+

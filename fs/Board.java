@@ -174,7 +174,10 @@ class Board extends JPanel {
 
     /******************************************************************/
     
-    private void drawFood(Graphics g) { drawCircle(g, food.p,food.c); }
+    private void drawFood(Graphics g) {
+        if(food.image)  g.drawImage(food.img, food.p.x*SQUARE_LEN, food.p.y*SQUARE_LEN, null);
+        else drawCircle(g, food.p,food.c);
+    }
     
     /******************************************************************/
     

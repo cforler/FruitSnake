@@ -8,7 +8,7 @@ FruitSnake:
 
 
 FruitSnake.jar:
-	jar cfmv $@ Manifest $(DIR)/*.class 
+	jar cfmv $@ Manifest $(DIR)/*.class  $(DIR)/images/*
 
 
 run: FruitSnake.jar
