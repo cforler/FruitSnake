@@ -7,7 +7,7 @@ public class  Constant {
 
     static final int BOARD_WIDTH  = 20;
     static final int BOARD_HEIGHT = 20;
-    static final Color SNAKE_COLOR =  Color.MAGENTA;
+    static final Color SNAKE_COLOR =  Color.GREEN;
     static final Color FOOD_COLOR =  Color.RED;
 
 
